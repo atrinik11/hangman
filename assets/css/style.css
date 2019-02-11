@@ -1,0 +1,44 @@
+.jumbotron {
+  margin-top: 5px;
+  background: url("http://hdqwalls.com/wallpapers/bthumb/universe-scenery-hd.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-size: 60px;
+}
+.jumbotron h4 {
+  font-size: 40px;
+}
+.row {
+  margin: 5px;
+  padding: 5px;
+  border: solid;
+  border-width: 5px;
+  border-color: teal;
+  text-align: center;
+}
+.col-5 {
+  border: dotted;
+  border-width: 2px;
+  border-color: red;
+}
+#displayImage {
+  padding: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+}
+#displayMsg {
+  padding: 20px;
+  font-size: 40px;
+  color: red;
+}
+.gameArea {
+  padding-top: 50px;
+  vertical-align: middle;
+}

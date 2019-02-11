@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Hangman Game</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h1>Hangman</h1>
+        <h4>Super Hero Theme</h4>
+      </div>
+      <div class=" row ">
+        <div class="col-5" id="displayImage"></div>
+        <div class="col-2" id="displayMsg"></div>
+        <div class="col-5 gameArea">
+          <h2 id="userInput">Press any key to get started!</h2>
+          <br />
+          <h4>Number of Guesses Remaining:<span id="guessRemain"></span></h4>
+          <h4>Letters already gussed: <span id="letterGuessed"></span></h4>
+          <h4>Win: <span id="win"></span></h4>
+          <h4>Loss: <span id="loss"></span></h4>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="assets/javascript/game.js"></script>
+</html>
