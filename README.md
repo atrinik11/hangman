@@ -12,4 +12,4 @@
 
 ### Deploy Link:
 
-[Starwar](https://github.com/atrinik11/hangman)
+[Hangman](https://github.com/atrinik11/hangman)
