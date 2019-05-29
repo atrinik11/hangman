@@ -12,4 +12,4 @@
 
 ### Deploy Link:
 
-[Hangman](https://github.com/atrinik11/hangman)
+[Hangman](https://atrinik11.github.io/hangman/)
